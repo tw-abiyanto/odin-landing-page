@@ -8,26 +8,81 @@
     sans-serif;
 }
 
-button {
+a {
+  text-decoration: none;
+}
+
+button,
+.action-container {
   background-color: var(--blue);
+  border: none;
 }
 
-header {
+button {
+  color: var(--bright);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 0.5rem 2rem;
+}
+
+header,
+.hero,
+footer {
   background-color: var(--dark);
 }
 
-.hero {
-  background-color: var(--dark);
+header .logo {
+  color: var(--bright);
+  font-size: 24px;
+}
+
+.navigation a,
+.hero-sub-text,
+footer {
+  color: var(--gray);
+  font-size: 18px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--bright);
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--dark);
 }
 
 .quote {
   background-color: var(--gray);
 }
 
-.action-container {
-  background-color: var(--blue);
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark);
 }
 
-footer {
-  background-color: var(--dark);
+figcaption {
+  font-size: 18;
+  font-weight: 800;
+  color: var(--dark);
+}
+
+.action-main-text {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--bright);
+}
+
+.action-sub-text {
+  color: var(--gray);
+}
+
+.action button {
+  border: 1px solid var(--bright);
 }
