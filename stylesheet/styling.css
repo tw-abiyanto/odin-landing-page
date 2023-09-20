@@ -24,7 +24,7 @@ header {
   background-color: var(--gray);
 }
 
-.action {
+.action-container {
   background-color: var(--blue);
 }
 

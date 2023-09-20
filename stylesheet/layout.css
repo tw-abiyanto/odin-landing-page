@@ -53,3 +53,7 @@ main {
   width: 100%;
   aspect-ratio: 1/1;
 }
+
+.action-container {
+  width: 100%;
+}
