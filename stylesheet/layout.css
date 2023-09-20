@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+ul {
+  margin: 0;
+}
+
+header,
+.hero,
+.info,
+.quote,
+.action {
+  display: flex;
+  justify-content: center;
+  padding: 0 15vw;
+}
+
+header ul {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
+
+.hero>div,
+.info-card {
+  flex: 1;
+}
+
+.info {
+  flex-direction: column;
+}
+
+.info-card-container {
+  display: flex;
+}
+
+.info-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
