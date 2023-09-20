@@ -68,7 +68,7 @@ blockquote {
 }
 
 figcaption {
-  font-size: 18;
+  font-size: 18px;
   font-weight: 800;
   color: var(--dark);
 }
