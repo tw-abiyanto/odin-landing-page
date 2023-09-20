@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 8px;
+}
+
 button,
 .action-container {
   background-color: var(--blue);
@@ -50,10 +54,18 @@ footer {
   color: var(--bright);
 }
 
+.hero img {
+  border: 2px solid var(--bright);
+}
+
 .info-title {
   font-size: 36px;
   font-weight: 800;
   color: var(--dark);
+}
+
+.info img {
+  border: 4px solid var(--dark);
 }
 
 .quote {
@@ -71,6 +83,10 @@ figcaption {
   font-size: 18px;
   font-weight: 800;
   color: var(--dark);
+}
+
+.action-container {
+  border-radius: 8px;
 }
 
 .action-main-text {
